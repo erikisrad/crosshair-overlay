@@ -63,7 +63,7 @@ def ui_loop(ww=1920, wh=1080):
     theme = _get_theme()
     dpg.bind_theme(theme)
 
-    dpg.create_viewport(title='ERIK CH Over', width=1280, height=720)
+    dpg.create_viewport(title='CH Over', width=1280, height=720)
     dpg.setup_dearpygui()
     dpg.show_viewport()
     dpg.set_primary_window("Primary Window", True)
